@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聖誕節</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <style>
+        /* 設定頂部大圖的高度與裁切方式 */
+        #imgHead {
+            height: 60vh;
+            object-fit: cover;
+        }
+
+        /* 設定圓形頭像的樣式 */
+        #imgDog {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -100px; 
+            border: 5px solid white; 
+            object-fit: cover;
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <img class="d-block w-100" src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=1600" id="imgHead" alt="Cover Image">
+
+    <img src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&w=400" id="imgDog" alt="Profile Image">
+
+    <div class="container mt-5 mb-5">
+        
+        <div class="text-center mb-5">
+            <h2>聖誕節</h2>
+            <p class="text-muted">一起分享快樂</p>
+        </div>
+
+        <div class="card-columns">
+            
+            <div class="card">
+                <img src="https://images.pexels.com/photos/29345883/pexels-photo-29345883.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Image 1">
+                <div class="card-body">
+                <h5 class="card-title">聖誕樹角角</h5>
+                <p class="card-text">掛好多彩色球和裝飾</p>
+                </div>
+            </div>
+
+            <div class="card">
+                 <img src="https://images.pexels.com/photos/5686476/pexels-photo-5686476.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Image 2">
+                 <div class="card-body">
+                    <h5 class="card-title">晚上的聖誕樹</h5>
+                    <p class="card-text">會有聖誕老公公來放禮物喔</p>
+                 </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/5469811/pexels-photo-5469811.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Image 3">
+                <div class="card-body">
+                <h5 class="card-title">雪白的裝飾</h5>
+                <p class="card-text">圓圓的白色裝飾和雪球一樣</p>
+                </div>
+            </div>
+
+            <div class="card text-center p-3 text-dark" style="background-color: #e3f2fd; border: none;">
+                <blockquote class="blockquote mb-0">
+                <p class="mb-0">12.25放假哟</p>
+                </blockquote>
+            </div>
+
+            <div class="card text-center">
+                <div class="card-body">
+                <h5 class="card-title">聖誕心語</h5>
+                <p class="card-text">也許聖誕節的意義，遠不止於此</p>
+                </div>
+            </div>
+
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                <p>聖誕節不是一個季節，而是一種感覺</p>
+                <footer class="blockquote-footer">
+                    <small class="text-muted">
+                    聖誕老公公
+                    </small>
+                </footer>
+                </blockquote>
+            </div>
+
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                <p class="mb-0">聖誕節快樂！！！</p>
+                </blockquote>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/35244377/pexels-photo-35244377.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Final Card Image">
+                <div class="card-body">
+                <h5 class="card-title">小小聖誕樹</h5>
+                <p class="card-text">可以擺在桌上的可愛聖誕樹</p>
+                </div>
+            </div>
+
+            <div class="card text-center p-4">
+                <h5 class="card-title text-danger">拐杖糖</h5> <p class="card-text">聖誕節當然也離不開拐杖糖</p>
+                <small class="text-muted">甜甜的滋味</small>
+            </div>
+
+            <div class="card">
+                <img src="https://images.pexels.com/photos/290220/pexels-photo-290220.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="溫暖燈光">
+                <div class="card-body">
+                <h5 class="card-title">溫暖的節日燈光</h5>
+                <p class="card-text">閃亮亮的裝飾，充滿過節氣氛</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="text-center text-white py-4" style="background-color: #343a40;">
+        <div class="container">
+            <p class="mb-0">© 2025 Christmas Website.</p>
+            <small>祝大家佳節愉快！</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
